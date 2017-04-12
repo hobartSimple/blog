@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title><%= blog.title %></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!--判断当前ie版本-->
+    <meta name="”apple-mobile-web-app-capable”" content="”yes”">
+    <!--网站开启对 web app 程序的支持-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--iPhone私有标签，它指定的iPhone中safari顶端的状态条的样式-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.js"></script>
+  </head>
+  <body>
+  <%- include('components/nav') %>
+  <%- include('components/nav-setting') %>
+  <%- include('components/notification') %>
